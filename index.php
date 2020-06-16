@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operaciones</title>
+</head>
+<body>
+<form method="POST" action="operaciones.php">
+	<label>Ingrese el primer numero</label><br>
+	<input type="number" name="numero1"><br>
+	<label>Ingrese el segundo numero</label><br>
+	<input type="number" name="numero2"><br>
+
+<select name="operacion">
+	<option value="sumar">sumar</option>
+	<option value="restar">restar</option>
+	<option value="multiplicar">multiplicar</option>
+	<option value="dividir">dividir</option>
+</select>
+
+	<button type="submit">ver resultado</button>
+</form>
+
+</body>
+</html>
